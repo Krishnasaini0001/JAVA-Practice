@@ -1,4 +1,4 @@
-public class ConditionalsDemo {
+public class day7_ConditionalsDemo {
     public static void main(String[] args) {
         // ----- if / else if / else -----
         int score = 78;
