@@ -1,4 +1,4 @@
-public class LoopsDemo {
+public class day8_LoopsDemo {
     public static void main(String[] args) {
         // ----- Classic for loop -----
         System.out.println("--- for loop: 1 to 5 ---");
