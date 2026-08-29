@@ -1,4 +1,4 @@
-public class MethodsDemo {
+public class day11_MethodsDemo {
     public static void main(String[] args) {
         // ----- Calling methods with different signatures -----
         System.out.println("Sum of 3 + 4 = " + add(3, 4));
