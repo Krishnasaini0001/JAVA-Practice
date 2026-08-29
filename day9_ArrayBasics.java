@@ -1,6 +1,6 @@
 import java.util.Arrays;
  
-public class ArrayBasics {
+public class day9_ArrayBasics {
     public static void main(String[] args) {
         // ----- Declaring and initializing arrays -----
         int[] numbers = {12, 45, 7, 23, 56, 89, 3, 34};
