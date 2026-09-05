@@ -1,75 +1,51 @@
-public class RecursionProblems {
+public class StaticDemo {
+    // Static field: shared across ALL instances of this class
+    static int instanceCount = 0;
+
+    // Instance field: each object gets its own copy
+    int id;
+
+    // Static block: runs once, when the class is first loaded
+    static {
+        System.out.println("Static block executed — class is being loaded.");
+    }
+
+    // Constructor: runs every time an object is created
+    StaticDemo() {
+        instanceCount++;
+        id = instanceCount;
+        System.out.println("Created instance #" + id);
+    }
+
     public static void main(String[] args) {
-        // ----- Sum of digits -----
-        int number = 4938;
-        System.out.println("Sum of digits of " + number + " = " + sumOfDigits(number));
+        System.out.println("--- Before creating any objects ---");
+        System.out.println("instanceCount = " + StaticDemo.instanceCount);
 
-        // ----- Power (base^exponent) -----
-        System.out.println("2^10 = " + power(2, 10));
-        System.out.println("5^0  = " + power(5, 0));
+        System.out.println("\n--- Creating 3 objects ---");
+        StaticDemo obj1 = new StaticDemo();
+        StaticDemo obj2 = new StaticDemo();
+        StaticDemo obj3 = new StaticDemo();
 
-        // ----- Greatest Common Divisor (Euclidean algorithm) -----
-        System.out.println("GCD(48, 18) = " + gcd(48, 18));
-        System.out.println("GCD(101, 10) = " + gcd(101, 10));
+        System.out.println("\n--- After creating objects ---");
+        System.out.println("Total instances created: " + StaticDemo.instanceCount);
+        System.out.println("obj1.id = " + obj1.id + ", obj2.id = " + obj2.id + ", obj3.id = " + obj3.id);
 
-        // ----- Reverse a string recursively -----
-        System.out.println("Reverse of 'recursion' = " + reverseString("recursion"));
+        // ----- Static utility method example (like Math.max) -----
+        System.out.println("\n--- Static utility methods ---");
+        System.out.println("MathUtils.square(5) = " + MathUtils.square(5));
+        System.out.println("MathUtils.cube(3)   = " + MathUtils.cube(3));
 
-        // ----- Check if a string is a palindrome recursively -----
-        System.out.println("Is 'madam' a palindrome? " + isPalindrome("madam"));
-        System.out.println("Is 'hello' a palindrome? " + isPalindrome("hello"));
+        // Static methods belong to the CLASS, not an object — no need to instantiate MathUtils
+    }
+}
 
-        // ----- Sum of an array recursively -----
-        int[] values = {4, 8, 15, 16, 23, 42};
-        System.out.println("Sum of array = " + sumArray(values, 0));
+// A utility class with only static methods — common pattern for helper classes
+class MathUtils {
+    static int square(int n) {
+        return n * n;
     }
 
-    // Base case: single digit returns itself
-    static int sumOfDigits(int n) {
-        if (n < 10) {
-            return n;
-        }
-        return (n % 10) + sumOfDigits(n / 10);
-    }
-
-    static long power(int base, int exponent) {
-        if (exponent == 0) {
-            return 1;
-        }
-        return base * power(base, exponent - 1);
-    }
-
-    // Euclidean algorithm: gcd(a, b) = gcd(b, a % b), base case gcd(a, 0) = a
-    static int gcd(int a, int b) {
-        if (b == 0) {
-            return a;
-        }
-        return gcd(b, a % b);
-    }
-
-    static String reverseString(String text) {
-        if (text.isEmpty()) {
-            return text;
-        }
-        return reverseString(text.substring(1)) + text.charAt(0);
-    }
-
-    static boolean isPalindrome(String text) {
-        if (text.length() <= 1) {
-            return true; // base case: empty or single character is always a palindrome
-        }
-        char first = text.charAt(0);
-        char last = text.charAt(text.length() - 1);
-        if (first != last) {
-            return false;
-        }
-        return isPalindrome(text.substring(1, text.length() - 1));
-    }
-
-    static int sumArray(int[] array, int index) {
-        if (index == array.length) {
-            return 0; // base case: no elements left
-        }
-        return array[index] + sumArray(array, index + 1);
+    static int cube(int n) {
+        return n * n * n;
     }
 }
