@@ -1,4 +1,4 @@
-public class VarargsDemo {
+public class day17_VarargsDemo {
     public static void main(String[] args) {
         // ----- Varargs: accept any number of arguments -----
         System.out.println("sum() = " + sum());
