@@ -1,4 +1,4 @@
-public class DebugPractice {
+public class day18_DebugPractice {
     public static void main(String[] args) {
         System.out.println("=== Debugging Practice ===");
         System.out.println("This file intentionally contains bugs.");
