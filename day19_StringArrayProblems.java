@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class StringArrayProblems {
+public class day19_StringArrayProblems {
     public static void main(String[] args) {
         // ----- Palindrome check -----
         System.out.println("--- Palindrome Check ---");
