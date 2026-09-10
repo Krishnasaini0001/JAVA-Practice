@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LibraryCatalog {
+public class day20_LibraryCatalog {
     // Array-based storage — deliberately simple since Collections haven't been taught yet (Phase 5)
     static final int MAX_BOOKS = 100;
     static String[] titles = new String[MAX_BOOKS];
