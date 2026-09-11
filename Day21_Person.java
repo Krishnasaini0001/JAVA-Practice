@@ -1,4 +1,4 @@
-public class Person {
+public class Day21_Person {
     // Instance fields — each Person object gets its own copy
     String name;
     int age;
@@ -6,12 +6,12 @@ public class Person {
 
     public static void main(String[] args) {
         // ----- Creating objects (instances) of the Person class -----
-        Person person1 = new Person();
+        Day21_Person person1 = new Day21_Person();
         person1.name = "Aarav";
         person1.age = 28;
         person1.city = "Indore";
 
-        Person person2 = new Person();
+        Day21_Person person2 = new Day21_Person();
         person2.name = "Priya";
         person2.age = 24;
         person2.city = "Mumbai";
@@ -31,7 +31,7 @@ public class Person {
 
         // ----- Objects can be passed to methods -----
         System.out.println("\n--- Comparing ages ---");
-        Person older = getOlder(person1, person2);
+        Day21_Person older = getOlder(person1, person2);
         System.out.println("Older person: " + older.name);
     }
 
@@ -45,7 +45,7 @@ public class Person {
         System.out.println(name + " just turned " + age + "!");
     }
 
-    static Person getOlder(Person a, Person b) {
+    static Day21_Person getOlder(Day21_Person a, Day21_Person b) {
         return (a.age >= b.age) ? a : b;
     }
 }
