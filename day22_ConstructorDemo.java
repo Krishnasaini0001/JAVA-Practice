@@ -1,4 +1,4 @@
-public class ConstructorDemo {
+public class day22_ConstructorDemo {
     public static void main(String[] args) {
         // ----- Using the no-arg constructor -----
         Book book1 = new Book();
