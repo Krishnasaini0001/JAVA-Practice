@@ -1,4 +1,4 @@
-public class EncapsulatedAccount {
+public class day23_EncapsulatedAccount {
     public static void main(String[] args) {
         BankAccount account = new BankAccount("Krishna Saini", 1000.0);
 
