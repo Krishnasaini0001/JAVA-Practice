@@ -2,11 +2,11 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-public class Point {
+public class day24_Point {
     int x;
     int y;
 
-    Point(int x, int y) {
+    day24_Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -22,7 +22,7 @@ public class Point {
     public boolean equals(Object obj) {
         if (this == obj) return true;               // same reference -> trivially equal
         if (obj == null || getClass() != obj.getClass()) return false; // different type -> not equal
-        Point other = (Point) obj;
+        day24_Point other = (day24_Point) obj;
         return x == other.x && y == other.y;         // equal if coordinates match
     }
 
@@ -33,9 +33,9 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        Point p1 = new Point(3, 4);
-        Point p2 = new Point(3, 4);
-        Point p3 = new Point(5, 6);
+        day24_Point p1 = new day24_Point(3, 4);
+        day24_Point p2 = new day24_Point(3, 4);
+        day24_Point p3 = new day24_Point(5, 6);
 
         // ----- toString() in action -----
         System.out.println("p1 = " + p1); // uses toString() automatically
@@ -50,7 +50,7 @@ public class Point {
 
         // ----- Why this matters: HashSet relies on equals() + hashCode() -----
         System.out.println("\n--- HashSet behavior ---");
-        Set<Point> points = new HashSet<>();
+        Set<day24_Point> points = new HashSet<>();
         points.add(p1);
         points.add(p2); // won't actually add a new entry — p1 and p2 are "equal"
         points.add(p3);
