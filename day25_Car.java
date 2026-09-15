@@ -1,10 +1,10 @@
-public class Car {
+public class day25_Car {
     // Composition: a Car "has-a" Engine — the Engine's lifecycle is tied to the Car's
     private Engine engine;
     private String model;
     private GPS gps; // a Car also "has-a" GPS
 
-    Car(String model, int horsepower) {
+    day25_Car(String model, int horsepower) {
         this.model = model;
         this.engine = new Engine(horsepower); // Car creates and owns its Engine
         this.gps = new GPS();
@@ -25,14 +25,14 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Car car = new Car("Tesla Model 3", 480);
+        day25_Car car = new day25_Car("Tesla Model 3", 480);
         car.start();
         car.navigateTo("Indore, Madhya Pradesh");
         car.stop();
 
         // ----- Composition with a collection of composed objects -----
         System.out.println("--- A car made of multiple parts ---");
-        Car secondCar = new Car("Honda Civic", 158);
+        day25_Car secondCar = new day25_Car("Honda Civic", 158);
         secondCar.start();
         secondCar.navigateTo("Mumbai");
         secondCar.stop();
