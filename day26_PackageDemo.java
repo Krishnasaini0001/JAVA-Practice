@@ -4,10 +4,10 @@ package app;
 import shapes.Circle;
 import shapes.Square;
 
-public class PackageDemo {
+public class day26_PackageDemo {
     public static void main(String[] args) {
         Circle circle = new Circle(5);
-        Square square = new Square(4);
+        day26_Square square = new day26_Square(4);
 
         System.out.println("--- Using classes from the 'shapes' package ---");
         System.out.println("Circle area: " + circle.area());

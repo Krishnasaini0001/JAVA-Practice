@@ -1,9 +1,9 @@
 package shapes;
 
-public class Square {
+public class day26_Square {
     private double side;
 
-    public Square(double side) {
+    public day26_Square(double side) {
         this.side = side;
     }
 
