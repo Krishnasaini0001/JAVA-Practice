@@ -1,9 +1,9 @@
 package shapes;
 
-public class Circle {
+public class day26_Circle {
     private double radius;
 
-    public Circle(double radius) {
+    public day26_Circle(double radius) {
         this.radius = radius;
     }
 

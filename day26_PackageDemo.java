@@ -6,7 +6,7 @@ import shapes.Square;
 
 public class day26_PackageDemo {
     public static void main(String[] args) {
-        Circle circle = new Circle(5);
+        day26_Circle circle = new day26_Circle(5);
         day26_Square square = new day26_Square(4);
 
         System.out.println("--- Using classes from the 'shapes' package ---");
