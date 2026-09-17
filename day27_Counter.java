@@ -1,4 +1,4 @@
-public class Counter {
+public class day27_Counter {
     // Static field: ONE copy shared by every Counter object
     private static int totalCountersCreated = 0;
 
@@ -6,7 +6,7 @@ public class Counter {
     private int currentValue;
     private final int counterId;
 
-    Counter() {
+    day27_Counter() {
         totalCountersCreated++;           // modifies the shared static field
         this.counterId = totalCountersCreated; // captures a per-instance snapshot
         this.currentValue = 0;
@@ -32,11 +32,11 @@ public class Counter {
     }
 
     public static void main(String[] args) {
-        System.out.println("Total counters before creating any: " + Counter.getTotalCountersCreated());
+        System.out.println("Total counters before creating any: " + day27_Counter.getTotalCountersCreated());
 
-        Counter counterA = new Counter();
-        Counter counterB = new Counter();
-        Counter counterC = new Counter();
+        day27_Counter counterA = new day27_Counter();
+        day27_Counter counterB = new day27_Counter();
+        day27_Counter counterC = new day27_Counter();
 
         counterA.increment();
         counterA.increment();
@@ -50,7 +50,7 @@ public class Counter {
         System.out.println("counterC value: " + counterC.getValue() + " (id=" + counterC.counterId + ")");
 
         System.out.println("\n--- Static state is shared ---");
-        System.out.println("Total counters created: " + Counter.getTotalCountersCreated());
+        System.out.println("Total counters created: " + day27_Counter.getTotalCountersCreated());
 
         counterA.reset();
         System.out.println("\nAfter resetting counterA: " + counterA.getValue());
