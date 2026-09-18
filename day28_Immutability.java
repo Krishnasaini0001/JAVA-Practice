@@ -45,7 +45,7 @@ final class ImmutableTeam {
     }
 }
 
-public class Immutability {
+public class day28_Immutability {
     public static void main(String[] args) {
         // ----- Immutable Point -----
         ImmutablePoint p1 = new ImmutablePoint(2, 3);
