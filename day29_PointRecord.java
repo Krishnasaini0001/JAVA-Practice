@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class PointRecord {
+public class day29_PointRecord {
     // A record: a concise, immutable data carrier.
     // The compiler auto-generates: constructor, getters (x(), y()), equals(), hashCode(), toString()
     record Point(int x, int y) {
