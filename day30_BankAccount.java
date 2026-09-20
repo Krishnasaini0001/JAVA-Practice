@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankAccount {
+public class day30_BankAccount {
     private static int nextAccountNumber = 1001; // shared across all accounts
 
     private final int accountNumber;
-    private final Customer owner;      // composition: an account "has-a" Customer
+    private final day30_Customer owner;      // composition: an account "has-a" Customer
     private double balance;
     private final List<String> transactionHistory = new ArrayList<>();
 
-    public BankAccount(Customer owner, double initialDeposit) {
+    public day30_BankAccount(day30_Customer owner, double initialDeposit) {
         this.accountNumber = nextAccountNumber++;
         this.owner = owner;
         this.balance = 0;
@@ -22,7 +22,7 @@ public class BankAccount {
         return accountNumber;
     }
 
-    public Customer getOwner() {
+    public day30_Customer getOwner() {
         return owner;
     }
 
@@ -54,7 +54,7 @@ public class BankAccount {
     }
 
     // Transfer money between two accounts — demonstrates objects collaborating
-    public boolean transferTo(BankAccount recipient, double amount) {
+    public boolean transferTo(day30_BankAccount recipient, double amount) {
         if (this.withdraw(amount)) {
             recipient.deposit(amount);
             log("Transferred " + amount + " to account #" + recipient.getAccountNumber());

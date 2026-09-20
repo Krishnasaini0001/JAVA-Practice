@@ -1,12 +1,12 @@
-public class BankingApp {
+public class day30_BankingApp {
     public static void main(String[] args) {
         // ----- Creating customers -----
-        Customer aarav = new Customer("C001", "Aarav Sharma", "aarav@example.com");
-        Customer priya = new Customer("C002", "Priya Patel", "priya@example.com");
+        day30_Customer aarav = new day30_Customer("C001", "Aarav Sharma", "aarav@example.com");
+        day30_Customer priya = new day30_Customer("C002", "Priya Patel", "priya@example.com");
 
         // ----- Creating accounts for each customer -----
-        BankAccount aaravAccount = new BankAccount(aarav, 5000);
-        BankAccount priyaAccount = new BankAccount(priya, 2000);
+        day30_BankAccount aaravAccount = new day30_BankAccount(aarav, 5000);
+        day30_BankAccount priyaAccount = new day30_BankAccount(priya, 2000);
 
         System.out.println(aarav);
         System.out.println(priya);
