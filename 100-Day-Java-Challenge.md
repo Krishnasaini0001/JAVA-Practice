@@ -59,3 +59,220 @@ This repo is my public log of the **100-Day Java Challenge** — 10 phases, 100 
 - [ ] Day 8 — Loops
 - [ ] Day 9 — Arrays I
 - [ ] Day 10 — 🎲 Project: Guessing Game + Grade Calculator
+
+</details>
+
+<details>
+<summary><b>Phase 2 — Methods & Problem Solving (Days 11–20)</b></summary>
+
+- [ ] Day 11 — Methods
+- [ ] Day 12 — Scope & Call Stack
+- [ ] Day 13 — Recursion I
+- [ ] Day 14 — Recursion II
+- [ ] Day 15 — Static Methods
+- [ ] Day 16 — Enums
+- [ ] Day 17 — Varargs & Method Design
+- [ ] Day 18 — Debugging
+- [ ] Day 19 — Algorithmic Thinking I
+- [ ] Day 20 — 📚 Project: Library Catalog
+</details>
+
+<details>
+<summary><b>Phase 3 — OOP Fundamentals (Days 21–30)</b></summary>
+
+- [ ] Day 21 — Classes & Objects
+- [ ] Day 22 — Constructors
+- [ ] Day 23 — Encapsulation
+- [ ] Day 24 — equals / hashCode / toString
+- [ ] Day 25 — Composition
+- [ ] Day 26 — Packages & Access Control
+- [ ] Day 27 — Static vs Instance Members
+- [ ] Day 28 — Immutability
+- [ ] Day 29 — Records
+- [ ] Day 30 — 🏦 Project: BankAccount System
+</details>
+
+<details>
+<summary><b>Phase 4 — Inheritance & Polymorphism (Days 31–40)</b></summary>
+
+- [ ] Day 31 — Inheritance Basics
+- [ ] Day 32 — Method Overriding
+- [ ] Day 33 — Polymorphism
+- [ ] Day 34 — Abstract Classes
+- [ ] Day 35 — Interfaces I
+- [ ] Day 36 — Interfaces II (default/static methods)
+- [ ] Day 37 — Sealed Classes
+- [ ] Day 38 — Exception Handling I
+- [ ] Day 39 — Exception Handling II (custom exceptions)
+- [ ] Day 40 — 🚗 Project: Vehicle Rental System
+</details>
+
+<details>
+<summary><b>Phase 5 — Collections & Generics (Days 41–50)</b></summary>
+
+- [ ] Day 41 — Collections Overview
+- [ ] Day 42 — ArrayList & LinkedList
+- [ ] Day 43 — Sets
+- [ ] Day 44 — Maps
+- [ ] Day 45 — Queue / Deque / Stack
+- [ ] Day 46 — Iterators
+- [ ] Day 47 — Generics I
+- [ ] Day 48 — Generics II (bounds & wildcards)
+- [ ] Day 49 — Comparable & Comparator
+- [ ] Day 50 — 📇 Project: Contact Manager
+</details>
+
+<details>
+<summary><b>Phase 6 — I/O, Testing & Build Tools (Days 51–60)</b></summary>
+
+- [ ] Day 51 — File I/O (java.io)
+- [ ] Day 52 — File I/O (java.nio)
+- [ ] Day 53 — Serialization
+- [ ] Day 54 — Dates & Times
+- [ ] Day 55 — Regular Expressions
+- [ ] Day 56 — Unit Testing I (JUnit)
+- [ ] Day 57 — Unit Testing II (parameterized, Mockito)
+- [ ] Day 58 — Build Tools I (Maven)
+- [ ] Day 59 — Build Tools II (Gradle)
+- [ ] Day 60 — 💰 Project: Expense Tracker
+</details>
+
+<details>
+<summary><b>Phase 7 — Functional Java & Streams (Days 61–70)</b></summary>
+
+- [ ] Day 61 — Lambda Expressions
+- [ ] Day 62 — Built-in Functional Interfaces
+- [ ] Day 63 — Method References
+- [ ] Day 64 — Streams I
+- [ ] Day 65 — Streams II
+- [ ] Day 66 — Streams III (Collectors)
+- [ ] Day 67 — Optional
+- [ ] Day 68 — Modern Java Syntax
+- [ ] Day 69 — Functional Refactor Practice
+- [ ] Day 70 — 📊 Project: Data Analytics Tool
+</details>
+
+<details>
+<summary><b>Phase 8 — Concurrency & Performance (Days 71–80)</b></summary>
+
+- [ ] Day 71 — Threads Basics
+- [ ] Day 72 — Synchronization
+- [ ] Day 73 — Thread Communication
+- [ ] Day 74 — Executor Framework
+- [ ] Day 75 — Concurrent Collections
+- [ ] Day 76 — Concurrency Utilities
+- [ ] Day 77 — CompletableFuture
+- [ ] Day 78 — Virtual Threads
+- [ ] Day 79 — JVM Performance Basics
+- [ ] Day 80 — ⬇️ Project: Multithreaded Downloader
+</details>
+
+<details>
+<summary><b>Phase 9 — Databases & Architecture (Days 81–90)</b></summary>
+
+- [ ] Day 81 — JDBC Basics
+- [ ] Day 82 — JDBC Transactions
+- [ ] Day 83 — DAO Pattern
+- [ ] Day 84 — Connection Pooling & ORM Intro
+- [ ] Day 85 — Design Patterns I (Creational)
+- [ ] Day 86 — Design Patterns II (Structural)
+- [ ] Day 87 — Design Patterns III (Behavioral)
+- [ ] Day 88 — SOLID Principles
+- [ ] Day 89 — Logging & Clean Code
+- [ ] Day 90 — ✅ Project: Task Management System
+</details>
+
+<details>
+<summary><b>Phase 10 — Spring Boot & Capstone (Days 91–100)</b></summary>
+
+- [ ] Day 91 — Spring Boot Intro
+- [ ] Day 92 — Spring Boot REST APIs
+- [ ] Day 93 — Spring Data JPA
+- [ ] Day 94 — Validation & Error Handling
+- [ ] Day 95 — API Testing
+- [ ] Day 96 — Building & Deploying (Docker)
+- [ ] Day 97 — Capstone Planning
+- [ ] Day 98 — Capstone Build I
+- [ ] Day 99 — Capstone Build II
+- [ ] Day 100 — 🚀 Capstone Finish & Retrospective
+</details>
+
+---
+
+## 🏆 Milestone Projects
+
+| # | Project | Days | Skills Demonstrated |
+|---|---------|:----:|----------------------|
+| 1 | 🎲 Number Guessing Game | 10 | Loops, conditionals, `Random`, `Scanner` |
+| 2 | 📚 Library Catalog | 20 | Arrays, methods, procedural design |
+| 3 | 🏦 BankAccount System | 30 | Encapsulation, composition, constructors |
+| 4 | 🚗 Vehicle Rental System | 40 | Inheritance, polymorphism, custom exceptions |
+| 5 | 📇 Contact Manager | 50 | Collections, generics, `Comparator` |
+| 6 | 💰 Expense Tracker | 60 | File persistence, JUnit test suite |
+| 7 | 📊 Data Analytics Tool | 70 | Streams, `Collectors`, functional style |
+| 8 | ⬇️ Multithreaded Downloader | 80 | `ExecutorService`, `CompletableFuture` |
+| 9 | ✅ Task Management System | 90 | DAO pattern, SQL, design patterns |
+| 10 | 🚀 Capstone API | 100 | Spring Boot, REST, JPA, testing, Docker |
+
+---
+
+## 🛠️ Tech & Topics Covered
+
+`Core Java` `OOP` `Collections Framework` `Generics` `Exception Handling` `File I/O` `java.time`
+`Regex` `JUnit 5` `Mockito` `Maven` `Gradle` `Lambdas` `Streams API` `Optional` `Records`
+`Sealed Classes` `Pattern Matching` `Multithreading` `Executors` `CompletableFuture` `Virtual Threads`
+`JDBC` `DAO Pattern` `Design Patterns` `SOLID` `Spring Boot` `REST APIs` `Spring Data JPA` `Docker`
+
+---
+
+## 📂 How This Repo Works
+
+```
+100-days-of-java/
+├── README.md                      <- you are here
+├── 100-Day-Java-Challenge.md      <- full curriculum with daily objectives
+├── Day01-HelloWorld/
+│   ├── Main.java
+│   └── notes.md
+├── Day02-VariablesAndTypes/
+├── ...
+├── Day30-Project-BankAccountSystem/
+├── ...
+└── Day100-CapstoneFinish/
+```
+
+- **One folder per day**, named `DayNN-Topic/`.
+- **One commit per day**, formatted as `Day N: <topic> — <what I built>`.
+- **Project days** (every 10th day) get their own mini `README.md` describing the build.
+- Every day's code is self-contained and runnable: `javac <File>.java && java <ClassName>`.
+
+### Commit log style
+```
+Day 47: Generics I — built a generic Box<T> and Pair<K,V> class
+Day 74: Executor Framework — used ExecutorService and Callable/Future
+Day 92: Spring Boot REST APIs — built first REST endpoints
+```
+
+---
+
+## 🔥 Streak Philosophy
+
+> A streak with one honest gap beats a fabricated one.
+
+- Theory-heavy day? Commit the notes.
+- Stuck on a bug? Commit `(WIP)` and keep moving tomorrow.
+- Missed a day? Resume — don't fake the date.
+
+---
+
+## 🤝 Follow Along / Connect
+
+If you're doing your own 100-day challenge, feel free to fork this structure — steal the folder layout, the commit convention, or the whole roadmap. Issues and PRs with corrections are always welcome.
+
+<div align="center">
+
+### ⭐ If this roadmap helps you, consider starring the repo — it keeps me honest too.
+
+**Day 0 / 100 — Let's begin.** ☕
+
+</div>
