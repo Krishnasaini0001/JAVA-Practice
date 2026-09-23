@@ -4,8 +4,7 @@
 ### From `Hello, World!` to Spring Boot — one commit at a time.
 
 ![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Progress](https://img.shields.io/badge/Progress-Day%200%20%2F%20100-blue?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-🔥%200%20days-orange?style=for-the-badge)
+
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
 *A self-guided, project-driven roadmap taking Java from absolute beginner to advanced —*
