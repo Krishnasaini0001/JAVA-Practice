@@ -1,8 +1,8 @@
-public class Animal {
+public class day31_Animal {
     protected String name;
     protected int age;
 
-    Animal(String name, int age) {
+    day31_Animal(String name, int age) {
         this.name = name;
         this.age = age;
         System.out.println("[Animal constructor] created " + name);
@@ -21,7 +21,7 @@ public class Animal {
     }
 
     public static void main(String[] args) {
-        Animal genericAnimal = new Animal("Generic Animal", 3);
+        day31_Animal genericAnimal = new day31_Animal("Generic Animal", 3);
         genericAnimal.makeSound();
 
         System.out.println();
@@ -39,7 +39,7 @@ public class Animal {
 }
 
 // 'extends' establishes an "is-a" relationship: a Dog IS an Animal
-class Dog extends Animal {
+class Dog extends day31_Animal {
     private String breed;
 
     Dog(String name, int age, String breed) {
@@ -58,7 +58,7 @@ class Dog extends Animal {
     }
 }
 
-class Cat extends Animal {
+class Cat extends day31_Animal {
     Cat(String name, int age) {
         super(name, age);
     }
