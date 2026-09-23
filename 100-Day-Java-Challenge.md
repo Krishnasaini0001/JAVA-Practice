@@ -273,6 +273,6 @@ If you're doing your own 100-day challenge, feel free to fork this structure —
 
 ### ⭐ If this roadmap helps you, consider starring the repo — it keeps me honest too.
 
-**Day 0 / 100 — Let's begin.** ☕
+
 
 </div>
