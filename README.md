@@ -12,3 +12,11 @@
 [Roadmap](#-the-roadmap) • [Progress Tracker](#-progress-tracker) • [Projects](#-milestone-projects) • [How I Work](#-how-this-repo-works) • [Stack](#-tech--topics-covered)
 
 </div>
+
+---
+
+## 📖 About This Journey
+
+This repo is my public log of the **100-Day Java Challenge** — 10 phases, 100 days, 10 hands-on projects, and one unbroken GitHub streak. Every day gets its own folder, its own commit, and (where it matters) its own notes on what clicked and what didn't.
+
+> 💡 **Why public?** Writing code that someone *might* read keeps the quality bar higher than writing code that only I'll ever see. Also — accountability.
