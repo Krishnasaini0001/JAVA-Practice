@@ -39,3 +39,23 @@ This repo is my public log of the **100-Day Java Challenge** — 10 phases, 100 
 | **10**| 91–100 | Spring Boot & Capstone | 🚀 Full-Stack Capstone API |
 
 <sub>Full day-by-day breakdown with learning objectives lives in [`100-Day-Java-Challenge.md`](./100-Day-Java-Challenge.md).</sub>
+
+---
+
+## ✅ Progress Tracker
+
+<sub>Tick a box, commit, repeat. (Tip: in GitHub's file editor you can check these directly.)</sub>
+
+<details>
+<summary><b>Phase 1 — Fundamentals (Days 1–10)</b></summary>
+
+- [ ] Day 1 — JVM & Hello World
+- [ ] Day 2 — Variables & Primitive Types
+- [ ] Day 3 — Operators
+- [ ] Day 4 — Type Casting & Wrapper Classes
+- [ ] Day 5 — Strings
+- [ ] Day 6 — Input/Output (Scanner)
+- [ ] Day 7 — Conditionals
+- [ ] Day 8 — Loops
+- [ ] Day 9 — Arrays I
+- [ ] Day 10 — 🎲 Project: Guessing Game + Grade Calculator
