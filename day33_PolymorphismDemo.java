@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PolymorphismDemo {
+public class day33_PolymorphismDemo {
     public static void main(String[] args) {
         // ----- Runtime polymorphism: the actual object's method runs, not the reference type's -----
         List<Employee> employees = new ArrayList<>();
