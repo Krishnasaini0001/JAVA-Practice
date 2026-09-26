@@ -1,7 +1,7 @@
-public abstract class AbstractShape {
+public abstract class day34_AbstractShape {
     String name;
 
-    AbstractShape(String name) {
+    day34_AbstractShape(String name) {
         this.name = name;
     }
 
@@ -17,26 +17,26 @@ public abstract class AbstractShape {
     public static void main(String[] args) {
         // AbstractShape shape = new AbstractShape("test"); // <- would NOT compile: cannot instantiate abstract class
 
-        AbstractShape[] shapes = {
+        day34_AbstractShape[] shapes = {
             new Circle(4),
             new Rectangle(3, 5),
             new Triangle(6, 4, 5, 5, 5)
         };
 
         System.out.println("--- Abstract class forces every subclass to define area/perimeter ---");
-        for (AbstractShape shape : shapes) {
+        for (day34_AbstractShape shape : shapes) {
             shape.printSummary(); // shared method, but calls each subclass's own area()/perimeter()
         }
 
         double totalArea = 0;
-        for (AbstractShape shape : shapes) {
+        for (day34_AbstractShape shape : shapes) {
             totalArea += shape.area();
         }
         System.out.println("\nTotal combined area: " + String.format("%.2f", totalArea));
     }
 }
 
-class Circle extends AbstractShape {
+class Circle extends day34_AbstractShape {
     private double radius;
 
     Circle(double radius) {
@@ -55,7 +55,7 @@ class Circle extends AbstractShape {
     }
 }
 
-class Rectangle extends AbstractShape {
+class Rectangle extends day34_AbstractShape {
     private double width, height;
 
     Rectangle(double width, double height) {
@@ -75,7 +75,7 @@ class Rectangle extends AbstractShape {
     }
 }
 
-class Triangle extends AbstractShape {
+class Triangle extends day34_AbstractShape {
     private double base, height, sideA, sideB, sideC;
 
     Triangle(double base, double height, double sideA, double sideB, double sideC) {
