@@ -1,4 +1,4 @@
-public class Drawable {
+public class day35_Drawable {
     public static void main(String[] args) {
         Circle circle = new Circle(5);
         Square square = new Square(4);
