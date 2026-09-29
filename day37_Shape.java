@@ -1,4 +1,4 @@
-public class Shape {
+public class day37_Shape {
     // A sealed class restricts EXACTLY which classes are allowed to extend it —
     // unlike normal inheritance, where anyone can extend a public class.
     sealed interface Figure permits Circle, Square, Triangle {

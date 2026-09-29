@@ -4,8 +4,8 @@ public class day35_Drawable {
         Square square = new Square(4);
 
         // ----- Treating different classes uniformly through a shared interface -----
-        Shape[] shapes = { circle, square };
-        for (Shape shape : shapes) {
+        day37_Shape[] shapes = { circle, square };
+        for (day37_Shape shape : shapes) {
             shape.draw();
         }
 
@@ -22,7 +22,7 @@ public class day35_Drawable {
         printShapeInfo(square);
     }
 
-    static void printShapeInfo(Shape shape) {
+    static void printShapeInfo(day37_Shape shape) {
         System.out.println("This shape guarantees a draw() method: ");
         shape.draw();
     }
@@ -37,7 +37,7 @@ interface Resizable {
     void resize(double factor);
 }
 
-class Circle implements Shape {
+class Circle implements day37_Shape {
     private double radius;
 
     Circle(double radius) {
@@ -50,7 +50,7 @@ class Circle implements Shape {
     }
 }
 
-class Square implements Shape {
+class Square implements day37_Shape {
     private double side;
 
     Square(double side) {
@@ -64,7 +64,7 @@ class Square implements Shape {
 }
 
 // Implementing two interfaces at once — Java allows this (unlike multiple class inheritance)
-class SmartCircle implements Shape, Resizable {
+class SmartCircle implements day37_Shape, Resizable {
     private double radius;
 
     SmartCircle(double radius) {
