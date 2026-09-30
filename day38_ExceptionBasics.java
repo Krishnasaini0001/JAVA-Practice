@@ -1,6 +1,6 @@
 import java.util.InputMismatchException;
 
-public class ExceptionBasics {
+public class day38_ExceptionBasics {
     public static void main(String[] args) {
         // ----- Basic try/catch -----
         System.out.println("--- try/catch: ArithmeticException ---");
