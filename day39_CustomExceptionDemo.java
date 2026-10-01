@@ -1,4 +1,4 @@
-public class CustomExceptionDemo {
+public class day39_CustomExceptionDemo {
     public static void main(String[] args) {
         // ----- Using a custom checked exception -----
         System.out.println("--- Custom checked exception ---");
