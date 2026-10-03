@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class CollectionsDemo {
+public class day41_CollectionsDemo {
     public static void main(String[] args) {
         // ----- The Collections Framework hierarchy at a glance -----
         // Collection (interface)
