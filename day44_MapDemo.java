@@ -3,7 +3,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MapDemo {
+public class day44_MapDemo {
     public static void main(String[] args) {
         // ----- HashMap: key-value pairs, NO guaranteed order -----
         Map<String, Integer> hashMap = new HashMap<>();
