@@ -3,7 +3,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class CustomIterableDemo {
+public class day46_CustomIterableDemo {
     public static void main(String[] args) {
         List<String> names = new ArrayList<>(List.of("Aarav", "Priya", "Rohan", "Sneha"));
 
