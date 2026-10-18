@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class SortingDemo {
+public class day49_SortingDemo {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>(List.of(
             new Student("Priya", 22, 8.7),
