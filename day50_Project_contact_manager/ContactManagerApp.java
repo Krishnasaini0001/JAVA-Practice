@@ -5,13 +5,13 @@ public class ContactManagerApp {
     public static void main(String[] args) {
         ContactManager manager = new ContactManager();
 
-        manager.addContact(new Contact("Krishna Saini", "9876543210", "priya@example.com"));
-        manager.addContact(new Contact("Jatin Panchal", "9123456780", "aarav@example.com"));
-        manager.addContact(new Contact("Harshendra Singh Songara", "9988776655", "rohan@example.com"));
-        manager.addContact(new Contact("Ajay Singh Dodiya", "9871234567", "sneha@example.com"));
+        manager.addContact(new Contact("Krishna Saini", "9876543210", "krishna@example.com"));
+        manager.addContact(new Contact("Jatin Panchal", "9123456780", "jatin@example.com"));
+        manager.addContact(new Contact("Harshendra Singh Songara", "9988776655", "harshendra@example.com"));
+        manager.addContact(new Contact("Ajay Singh Dodiya", "9871234567", "ajay@example.com"));
 
         // Duplicate add attempt
-        manager.addContact(new Contact("Priya Sharma", "0000000000", "duplicate@example.com"));
+        manager.addContact(new Contact("Omprakash Dhanak", "0000000000", "duplicate@example.com"));
 
         System.out.println("\n--- All contacts (sorted by name) ---");
         for (Contact contact : manager.getAllSortedByName()) {
